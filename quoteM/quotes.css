@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  background: salmon;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.brand{
+  margin-left: 20px;
+}
+
+.main{
+  height: 95%;
+  background: url(image_1.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote{
+  text-align: center;
+  max-width: 1000px;
+  font-family: cursive;
+  animation-name: crazy;
+  animation-duration: 5s;
+ 
+}
+.buttons{
+  display: flex;
+}
+.buttons a{
+ text-decoration: none;
+ font-size: 1.3rem;
+ padding: 30px 10px;
+ color: white;
+ background: #333;
+ border: 3px solid salmon;
+ border-radius: 50%;
+ margin: 10px;
+}
+
+
+.buttons a:hover{
+  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  border: none;
+  outline: 0;
+  background: #cbc2c2;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+footer{
+  background: salmon;
+  text-align: center;
+}
+
+.social a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.fa-twitter{
+  color: dodgerblue;
+}
+
+.fa-facebook{
+  color: #3B5998
+}
+
+@keyframes crazy{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
